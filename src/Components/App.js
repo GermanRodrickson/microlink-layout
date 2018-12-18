@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import Microlinkcard from "./Microlinkcard";
 import Microlinkdata from "./Microlinkdata";
+import Logos from "./Logos";
 
 const Wrapper = styled.section`
   display: flex;
@@ -13,10 +14,15 @@ const Wrapper = styled.section`
 class App extends Component {
   render() {
     return (
-    <Wrapper>
-      <Microlinkcard />
-      <Microlinkdata />
-    </Wrapper>
+      <section>
+        <Wrapper>
+          <Microlinkcard />
+          <Microlinkdata />
+        </Wrapper>
+        <Logos />
+
+      </section>
+    
     )
   }
 }
