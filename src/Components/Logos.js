@@ -20,8 +20,8 @@ const Wrapper = styled.section`
     border-radius: 100%;
 
     &:hover {
-      transform: translate(10%, 4%) scale(0.8, 0.8) rotate(5deg);
-      padding: 10px;
+      transform: scale(1.2, 1.2);
+      padding: 20px;
     }
   }
 `;
