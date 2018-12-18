@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Microlinkcard from './Components/Microlinkcard'
-// import Microlinkdata from './Components/Microlinkdata'
+import App from './Components/App'
 
 const root = document.getElementById('root')
 
-ReactDOM.render(<Microlinkcard />, root);
+ReactDOM.render(<App />, root);
